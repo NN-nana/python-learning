@@ -1,0 +1,16 @@
+"""
+Найти, где находится слово молоко в наборе слов 
+"""
+# Решение через for
+spisok = ['хлеб', 'кефир', 'яблоко', 'молоко', 'вафли']
+nomer = -1
+
+for i in range(len(spisok)):
+    if spisok[i] == 'молоко':
+        nomer = i + 1
+        break
+
+if nomer > -1:
+    print('Moloko na', nomer, 'meste')
+else:
+    print('Moloke net')

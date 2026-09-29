@@ -1,0 +1,35 @@
+
+# КОНЧЕННАЯ ЗАДАЧ/ВЕРНУТЬСЯ ПОЗЖЕ 
+# n = int(input())
+
+
+# for i in range(1, n+1):
+#     text = input()
+
+#     if text.isspace() == True or len(text) == 0:
+#         print(i,': ''COMMENT SHOULD BE DELETED', sep='\n')
+#     print(i, text, sep='\n')
+
+
+#2 
+# nik = input()
+
+# if (nik.startswith('@') and 5 <= len(nik) <=15):
+#     if nik[1:].isalnum() and nik == nik.lower():
+#             print('Correct')
+#     else:
+#         print('Incorrect')
+# else:
+#     print('Incorrect')
+
+
+# 3 АВТОМОБ НОМЕР
+nomer = input()
+buk = 'АВЕКМНОРСТУХ'
+
+for c in nomer:
+    if c == buk[0:]:
+        print('YES')
+
+else:
+    print('NO')

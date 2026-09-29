@@ -1,0 +1,14 @@
+import random 
+general_num = random.randint(1, 202)
+num_people = int(input('Введите число: '))
+
+while num_people != general_num:
+    if num_people > general_num:
+        print('Все хуйня, число твое больше задуманного')
+    elif num_people < general_num:
+        print('Все хуйня, число твое меньше задуманного')
+    num_people = int(input('Введите число: '))
+   
+else:
+    print('Угадал, жди отсос')
+    num_people = int(input('Введите число: '))

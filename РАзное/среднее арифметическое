@@ -1,0 +1,27 @@
+
+# Решение чере for
+'''
+
+summa = 0 
+n = int(input('Введите количество: '))
+
+for step in range(n):
+    num = int(input('Введите число: '))
+    summa = summa + num
+
+print(summa/n)
+
+'''
+
+# Решение чере while
+
+n = int(input('Введите количество: '))
+summa = 0 
+step = 1
+
+while step <= n:
+    num = int(input('Введите число: '))
+    summa += num
+    step += 1
+
+print(summa/n)

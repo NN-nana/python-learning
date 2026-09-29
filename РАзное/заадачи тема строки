@@ -1,0 +1,39 @@
+#1 
+#  text = input()
+# sub = input()
+
+# first_pos = text.find(sub)
+# if first_pos == -1:
+#     print('НЕ НАЙДЕНО')
+# else:
+#     last_pos = text.rfind(sub)
+#     print(first_pos, last_pos, text.count(sub), sep='\n')
+
+# 2
+# text = input()
+
+# cnt_old = text.count('old')
+
+# if cnt_old >= 2:
+#     print(text.replace("old", "new"))
+# else:
+#     print('НЕТ ЗАМЕН')hello world
+
+# 3 ПРОРЕШААААТЬ подобные 
+# text = input()
+
+# start_pos = text.find("start")
+# end_pos = text.rfind("end")
+
+# extract_start = start_pos + len("start")
+# print(extract_start)
+
+
+#4 
+# text = input()
+
+
+# print(text.find("start"), text.rfind("end"), sep='\n')
+
+
+

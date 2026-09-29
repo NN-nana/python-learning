@@ -1,0 +1,30 @@
+# text = input()
+
+# first_pos = text.find(':')
+# print(text[first_pos+1:])
+
+
+
+
+
+
+# 2
+# text = input()
+# first_h = text.find('@')
+# print(text[0:first_h])
+
+# 3 
+
+# text = input()
+# first_pos = text.find('h')
+# last_pos = text.rfind('h')
+
+
+
+
+# print(text[:first_pos], text[last_pos+1:], sep='')
+
+
+
+
+
